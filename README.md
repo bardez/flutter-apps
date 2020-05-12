@@ -12,7 +12,7 @@ Youtube clone features:
 - Seaching
 - Palying
 
-* TODO: 
+TODO: 
 
 - Inifnite Scroll
 - List Favorites
