@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:youtube/app/model/video_model.dart';
 import 'package:youtube/app/persistence/api.dart';
 import 'package:flutter_youtube/flutter_youtube.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class InicioPage extends StatefulWidget {
   final String title;
@@ -43,7 +44,7 @@ class _InicioPageState extends State<InicioPage> {
                   return GestureDetector(
                     onTap: () {
                       FlutterYoutube.playYoutubeVideoById(
-                        apiKey: API_KEY, 
+                        apiKey: DotEnv().env['API_KEY'], 
                         videoId: video.id,
                         autoPlay: true,
                         // fullScreen: true,
