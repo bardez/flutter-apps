@@ -10,7 +10,7 @@ Repository dedicated for study apps using flutter
 Youtube clone features:
 - Listing
 - Seaching
-- Palying
+- Playing
 
 TODO: 
 
