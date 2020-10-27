@@ -14,6 +14,23 @@ class _HomePageState extends State<HomePage> {
 
   int _indiceAtual = 0;
   String _resultado = "";
+  List<bool> inputs = new List<bool>();
+  
+  @override
+  void initState() {
+    // TODO: implement initState
+    setState(() {
+      for(int i=0;i<20;i++){
+        inputs.add(true);
+      }
+    });
+  }
+ 
+  void ItemChange(bool val,int index){
+    setState(() {
+      inputs[index] = val;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
