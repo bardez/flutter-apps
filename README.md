@@ -7,12 +7,15 @@ Repository dedicated for study apps using flutter
 ***********************************
 
 # Youtube
-Youtube clone features:
+
+### Features:
 - Listing
 - Seaching
-- Palying
+- Playing
 
-TODO: 
+### TODO: 
 
 - Inifnite Scroll
 - List Favorites
+
+***********************************
