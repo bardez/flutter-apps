@@ -31,3 +31,12 @@ Repository dedicated for study apps using flutter
 - Stateless and Statefull Widgets
 
 ***********************************
+
+# Bytebank v2
+
+### Features:
+- Dashboard
+- Contact list
+- Contact Form
+- More coming soon
+***********************************
